@@ -60,7 +60,7 @@ export default function FashionGallery() {
       <SEO title="Fashion Gallery & Collections" />
 
       {/* Banner Section */}
-      <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[260px] flex items-center justify-center overflow-hidden">
         <img 
           src={settings?.collectionsHeroImage || "https://images.unsplash.com/photo-1539109132335-34a91bf30402?auto=format&fit=crop&q=80&w=1600"} 
           className="absolute inset-0 w-full h-full object-cover"

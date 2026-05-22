@@ -19,7 +19,7 @@ export default function About() {
   return (
     <div className="bg-[#1a1a1a] min-h-screen">
       {/* Banner Section */}
-      <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[260px] flex items-center justify-center overflow-hidden">
         <img 
           src={settings?.aboutHeroImage || "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80&w=1600"} 
           className="absolute inset-0 w-full h-full object-cover"

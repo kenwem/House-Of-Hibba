@@ -98,7 +98,7 @@ export default function Trainings() {
   return (
     <div className="bg-[#1a1a1a] min-h-screen text-white">
       {/* Banner Section */}
-      <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[260px] flex items-center justify-center overflow-hidden">
         <img 
           src={settings?.trainingsHeroImage || "https://images.unsplash.com/photo-1524311583145-d419616d2524?auto=format&fit=crop&q=80&w=1600"} 
           className="absolute inset-0 w-full h-full object-cover"

@@ -14,9 +14,9 @@ export default function Contact() {
   return (
     <div className="bg-[#1a1a1a] min-h-screen">
       {/* Banner Section */}
-      <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[260px] flex items-center justify-center overflow-hidden">
         <img 
-          src={settings?.contactHeroImage || "https://images.unsplash.com/photo-1594465919760-441fe5908ab0?auto=format&fit=crop&q=80&w=1600"} 
+          src={settings?.contactHeroImage || "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=1600"} 
           className="absolute inset-0 w-full h-full object-cover"
           alt="Contact Banner"
         />
